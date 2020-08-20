@@ -1,4 +1,4 @@
-# Summary
+<!-- # Summary -->
 
 [Introduction](./introduction.md)
 - [Preparing Your Kitchen](./1-prepare-kitchen/index.md)
