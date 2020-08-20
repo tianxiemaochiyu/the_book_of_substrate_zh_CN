@@ -1,27 +1,28 @@
 // .vuepress/config.js
 module.exports = {
+  theme: 'reco',
   themeConfig: {
-    sidebar: "auto",
     smoothScroll: true,
+    codeTheme: 'tomorrow',
     // collapsable: false,
     sidebar: [
       {
         title: 'Substrate',
         path: '/',
         collapsable: false,
-        sidebarDepth: 1,
+        sidebarDepth: 3,
         children: [
           {
             title: 'Introduction',
             path: '/Introduction',
             collapsable: false,
-            sidebarDepth: 1,
+            sidebarDepth: 2,
           },
           {
             title: '1. Preparing Your Kitchen',
             path: '/1-prepare-kitchen/index',
             collapsable: false,
-            sidebarDepth: 1,
+            sidebarDepth: 2,
             children: [
               {
                 title: '1.1. Building A Node',
@@ -41,7 +42,7 @@ module.exports = {
             title: '2. Appetizers',
             path: '/2-appetizers/index',
             collapsable: false,
-            sidebarDepth: 1,
+            sidebarDepth: 2,
             children: [
               {
                 title: '2.1. Hello Substrate',
@@ -65,7 +66,7 @@ module.exports = {
             title: '3. Entrees',
             path: '/3-entrees/index',
             collapsable: false,
-            sidebarDepth: 1,
+            sidebarDepth: 2,
             children: [
               {
                 title: '3.1. Runtime Storage API',
@@ -241,6 +242,9 @@ module.exports = {
           }
         ]
       },
+    ],
+    head: [
+      ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
     nav: [
       { text: '回首页', link: '/' },
