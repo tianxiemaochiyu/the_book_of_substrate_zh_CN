@@ -77,23 +77,28 @@ module.exports = {
                     title: '3.1.1. Runtime Storage API',
                     path: '/3-entrees/storage-api/storage-maps',
                   },
-                  '',
                   {
                     title: '3.1.2. Cache Locally > Storage Calls',
                     path: '/3-entrees/storage-api/cache',
                   },
-                  '/3-entrees/storage-api/vec-set',
-                  '/3-entrees/storage-api/map-set',
                   {
-                    title: '3.1.3. Subgroup Removal by Subkey: Double Maps',
+                    title: '3.1.3. Using Vectors as Sets',
+                    path: '/3-entrees/storage-api/vec-set',
+                  },
+                  {
+                    title: '3.1.4. Using Maps as Sets',
+                    path: '/3-entrees/storage-api/map-set',
+                  },
+                  {
+                    title: '3.1.5. Subgroup Removal by Subkey: Double Maps',
                     path: '/3-entrees/storage-api/double'
                   },
                   {
-                    title: '3.1.4. Storing custom structs',
+                    title: '3.1.6. Storing custom structs',
                     path: '/3-entrees/storage-api/structs'
                   },
                   {
-                    title: '3.1.5. Ringbuffer Queue',
+                    title: '3.1.7. Ringbuffer Queue',
                     path: '/3-entrees/storage-api/ringbuffer'
                   },
                 ]
@@ -114,7 +119,6 @@ module.exports = {
                 title: '3.5. Instantiable Pallets',
                 path: '/3-entrees/instantiable',
               },
-              '',
               {
                 title: '3.6. Weights for Resource Accounting',
                 path: '/3-entrees/weights',
