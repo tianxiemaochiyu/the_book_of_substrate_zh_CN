@@ -1,4 +1,5 @@
-<!-- # Summary -->
+
+**Online**: [http://substrate.scorpiocat.com](http://substrate.scorpiocat.com "Substrate Recipes")
 
 [Introduction](./introduction.md)
 - [Preparing Your Kitchen](./1-prepare-kitchen/index.md)
