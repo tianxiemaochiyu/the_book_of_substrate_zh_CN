@@ -1,9 +1,42 @@
 // .vuepress/config.js
 module.exports = {
+  locales: {
+    '/': {
+      lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+      description: 'Substrate Recipes',
+      title: 'Substrate Recipes',
+    },
+    '/zh/': {
+      lang: 'zh-CN',
+      description: 'Substrate Recipes',
+      title: 'Substrate Recipes',
+    },
+  },
   theme: 'reco',
   themeConfig: {
+    repo: 'https://github.com/tianxiemaochiyu/the_book_of_substrate_zh_CN',
+    locales: {
+      // 键名是该语言所属的子路径
+      // 作为特例，默认语言可以使用 '/' 作为其路径。
+      '/': {
+        lang: 'en-US', // 将会被设置为 <html> 的 lang 属性
+        selectText: 'Languages',
+        label: 'English',
+        editLinkText: 'Edit this page on GitHub',
+      },
+      '/zh/': {
+        lang: 'zh-CN',
+        selectText: '选择语言',
+        label: '简体中文',
+        docsDir: 'docs',
+        editLinkText: '帮助改善此页面！',
+      }
+    },
     smoothScroll: true,
     codeTheme: 'tomorrow',
+    docsDir: 'docs',
+    editLinks: true,
+    // 默认为 "Edit this page"
     // collapsable: false,
     sidebar: [
       {
@@ -246,8 +279,5 @@ module.exports = {
     head: [
       ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
     ],
-    nav: [
-      { text: '回首页', link: '/' },
-    ]
   }
 };
