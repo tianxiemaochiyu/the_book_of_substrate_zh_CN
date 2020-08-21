@@ -1,13 +1,10 @@
-# Substrate Recipes 🍴😋🍴
+# Substrate 食谱 🍴😋🍴
 
-_A Hands-On Cookbook for Aspiring Blockchain Chefs_
+_有抱负的区块链厨师的动手食谱_
 
-Substrate Recipes is a cookbook of working examples that demonstrate best practices when building
-blockchains with **[Substrate](https://github.com/paritytech/substrate)**. Each recipe contains a
-complete working code example as well as a detailed writeup describing the code. This book is
-[open source](https://github.com/substrate-developer-hub/recipes). Check out the
-[contributing guidelines](https://github.com/substrate-developer-hub/recipes/blob/master/CONTRIBUTING.md)
-for an overview of the structure and directions for getting involved.
+Substrate Recipes 是一本工作示例的食谱，展示了使用 **[Substrate](https://github.com/paritytech/substrate)** 构建区块链时的最佳实践。
+每个食谱都包含一个
+完整的工作代码示例以及描述该代码的详细文章。这本书是[开源](https://github.com/substrate-developer-hub/recipes)的. 查看[参与指南](https://github.com/substrate-developer-hub/recipes/blob/master/CONTRIBUTING.md)以大致了解参与的结构和方向。
 
 ## How to Use This Book
 

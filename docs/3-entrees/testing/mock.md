@@ -193,7 +193,7 @@ patterns are presented below. The latter is generally favored for reasons discus
     flexible environment for tests (i.e. can reconfigure pallet constants in every test if
     necessary)
 
-## new_test_ext <a name = "newext"><a/>
+## new_test_ext `<a name = "newext"><a/>`
 
 _[`pallets/smpl-treasury`](https://github.com/substrate-developer-hub/recipes/tree/master/pallets/charity)_
 
