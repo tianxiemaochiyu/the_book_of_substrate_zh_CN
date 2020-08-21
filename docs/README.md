@@ -1,7 +1,7 @@
 
 **Online**: [http://substrate.scorpiocat.com](http://substrate.scorpiocat.com "Substrate Recipes")
 
-[Introduction](./introduction.md)
+[Introduction](./Introduction.md)
 - [Preparing Your Kitchen](./1-prepare-kitchen/index.md)
 	- [Building A Node](./1-prepare-kitchen/1-build-node.md)
 	- [Interacting with a Node](./1-prepare-kitchen/2-interact-node.md)
