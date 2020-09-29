@@ -1,7 +1,7 @@
 {
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs && cp -rf ./docs/.vuepress/dist/* ./"
   },
   "devDependencies": {
     "vuepress": "^1.5.3"
